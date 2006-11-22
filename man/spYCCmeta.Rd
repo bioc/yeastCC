@@ -1,9 +1,9 @@
 \name{spYCCmeta}
 \alias{spYCCmeta}
 \docType{data}
-\title{ ~~ data name/kind ... ~~}
+\title{ metadata on yeast cell cycle microarray experiment }
 \description{
-  ~~ A concise (1-5 lines) description of the dataset. ~~
+  data.frame instance with metadata on 800 genes
 }
 \usage{data(spYCCmeta)}
 \format{

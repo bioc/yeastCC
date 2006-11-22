@@ -5,7 +5,7 @@
 \description{
 Vector of ORF names for the 800 cell cycle regulated genes identified
 by the analysis of Spellman et al. (1998). The expression measures and
-sample descriptions are stored in the \code{\link{exprSet}} instance \code{\link{yeastCC}}.
+sample descriptions are stored in the \code{\link[Biobase]{exprSet}} instance \code{\link{yeastCC}}.
 }
 \usage{data(orf800)}
 \format{
@@ -18,7 +18,7 @@ The 800 ORF names were obtained from the file  "CellCycle98.xls" on
 the  Yeast Cell Cycle
 Analysis Project website (\url{http://genome-www.stanford.edu/cellcycle/}). 
 The raw data (images, TIFF) and processed data "combine.txt" used to create the
-\code{\link{exprSet}} instance \code{yeastCC} are also available on
+\code{\link[Biobase]{exprSet}} instance \code{yeastCC} are also available on
 the website. 
 Gene annotation
 information is available from the Saccharomyces Genome Database (SGD,
