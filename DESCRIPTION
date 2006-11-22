@@ -1,6 +1,5 @@
 Package: yeastCC
-Version: 1.2.1
-Date: 2006-06-02
+Version: 1.2.2
 Title: Spellman et al. (1998) yeast cell cycle microarray data
 Author: Sandrine Dudoit <sandrine@stat.berkeley.edu>
 Maintainer: Sandrine Dudoit <sandrine@stat.berkeley.edu>

@@ -1,5 +1,6 @@
 \name{yeastCC}
 \alias{yeastCC}
+\alias{spYCCES}
 \docType{data}
 \title{Data from the Spellman et al. (1998) yeast cell cycle
 microarray experiment}
@@ -32,6 +33,9 @@ Gene annotation
 information is available from the Saccharomyces Genome Database (SGD,
 \url{http://genome-www.stanford.edu/Saccharomyces/gene_list.shtml}).
 The script "createYeastCC.R" for generating the \code{yeastCC} package is available in  \url{../doc}.
+
+Note that spYCCES is an ExpressionSet instance with the same data and
+slightly different phenodata annotation.
 }
 \references{
 Spellman et al. (1998). Comprehensive Identification of Cell Cycle-regulated Genes of the Yeast Saccharomyces cerevisiae by Microarray Hybridization. \emph{Molecular Biology of the Cell}, 9: 3273-3297 (\url{../doc}).
@@ -44,7 +48,6 @@ pData(yeastCC)
 description(yeastCC)
 abstract(yeastCC)
 geneNames(yeastCC)[1:10]
-x <- exprs(yeastCC)
-dim(x)
+dim(exprs(yeastCC))
 }
 \keyword{datasets}
