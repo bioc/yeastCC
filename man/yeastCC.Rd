@@ -47,7 +47,7 @@ varLabels(yeastCC)
 pData(yeastCC)
 description(yeastCC)
 abstract(yeastCC)
-geneNames(yeastCC)[1:10]
+featureNames(yeastCC)[1:10]
 dim(exprs(yeastCC))
 }
 \keyword{datasets}
