@@ -4,7 +4,7 @@ Title: Spellman et al. (1998) and Pramila/Breeden (2006) yeast cell cycle microa
 Author: Sandrine Dudoit <sandrine@stat.berkeley.edu>
 Maintainer: Sandrine Dudoit <sandrine@stat.berkeley.edu>
 Description: ExpressionSet for Spellman et al. (1998) yeast cell cycle microarray experiment
-License: unknown
+License: Artistic-2.0
 LazyData: yes
 Depends: Biobase (>= 2.5.5)
 biocViews: ExperimentData, Yeast
