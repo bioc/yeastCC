@@ -1,5 +1,5 @@
 Package: yeastCC
-Version: 1.7.0
+Version: 1.7.1
 Title: Spellman et al. (1998) and Pramila/Breeden (2006) yeast cell cycle microarray data
 Author: Sandrine Dudoit <sandrine@stat.berkeley.edu>
 Maintainer: Sandrine Dudoit <sandrine@stat.berkeley.edu>
@@ -7,4 +7,4 @@ Description: ExpressionSet for Spellman et al. (1998) yeast cell cycle microarra
 License: Artistic-2.0
 LazyData: yes
 Depends: Biobase (>= 2.5.5)
-biocViews: ExperimentData, Yeast
+biocViews: ExperimentData, CellCulture, Saccharomyces_cerevisiae_Data, CancerData, MicroarrayData, OneChannelData, GEO
